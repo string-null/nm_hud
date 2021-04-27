@@ -1,0 +1,181 @@
+#heal {
+    border-style: solid;
+    border-radius: 1.25px;
+    border-width: 3px;
+    border-color: #51ff00;
+    position: absolute;
+    left: 2.5vw;
+    bottom: 0.8vw;
+    width: 2.8%;
+    height: 1.0%;
+    padding: 0;
+    float:left;
+    border: 0.25px solid #51ff00 !important;
+    opacity: 1;
+    background: rgba(32, 99, 0, 0.70);
+    transform: skew(-25deg);
+}
+
+
+@keyframes heal {
+    from {
+      box-shadow: 0 0 10px -10px #a8ffa9;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #8aff8c;
+    }
+  }
+
+#stamina {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e9f542;
+    border-radius: 1.25px;
+    position: absolute;
+    left: 13.7vw;
+    bottom: 0.8vw;
+    width: 2.8%;
+    height: 1.0%;
+    padding: 0;
+    float:left;
+    border: 0.25px solid #e9f542 !important;
+    opacity: 1;
+    background:rgba(85, 92, 0, 0.70);
+    transform: skew(-25deg);
+}
+
+@keyframes stamina {
+    from {
+      box-shadow: 0 0 10px -10px #ffcfa8;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #ffcfa8;
+    }
+  }
+
+#armor {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0066ff;
+    border-radius: 1.25px;
+    position: absolute;
+    left: 17.4vw;
+    bottom: 0.8vw;
+    width: 2.8%;
+    height: 1.0%;
+    padding: 0;
+    float:left;
+    border: 0.25px solid  #0066ff !important;
+    opacity: 1;
+    background: rgba(30, 54, 82, 0.80);
+    transform: skew(-25deg);
+}
+
+@keyframes armor {
+    from {
+      box-shadow: 0 0 10px -10px #f6ffa8;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #f6ffa8;
+    }
+  }
+
+#hunger {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff9900;
+    border-radius: 1.25px;
+    position: absolute;
+    left: 6.2vw;
+    bottom: 0.8vw;
+    width: 2.8%;
+    height: 1.0%;
+    padding: 0;
+    float:left;
+    border: 0.25px solid #ff9900 !important;
+    opacity: 1;
+    background: rgba(125, 75, 0, 0.70);
+    transform: skew(-25deg);
+}
+
+@keyframes hunger {
+    from {
+      box-shadow: 0 0 10px -10px #f8cc92;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #f7ca90;
+    }
+  }
+
+#thirst {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.25px;
+    border-color: #00b7ff;
+    position: absolute;
+    left: 10.0vw;
+    bottom: 0.8vw;
+    width: 2.8%;
+    height: 1.0%;
+    padding: 0;
+    float:left;
+    border: 0.25px solid  #00b7ff !important;
+    opacity: 1;
+    background: rgba(0, 84, 117, 0.70);
+    transform: skew(-25deg);
+}
+
+@keyframes thirst {
+    from {
+      box-shadow: 0 0 10px -10px #00a2ff;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #00a2ff;
+    }
+  }
+
+#boxHeal{
+    background: linear-gradient(110deg, rgb(62, 156, 0) 0%,rgb(62, 156, 0) 20%,rgb(21, 255, 0) 20%, rgb(21, 255, 0) 40%,rgb(62, 156, 0) 40%,rgb(62, 156, 0) 60%,rgb(21, 255, 0) 60%, rgb(21, 255, 0) 80%, rgb(62, 156, 0) 80%,rgb(62, 156, 0) 100%,rgb(21, 255, 0) 100%, rgb(21, 255, 0) 120%,rgb(62, 156, 0) 120%,rgb(62, 156, 0) 140%,rgb(21, 255, 00) 140%, rgb(21, 255, 0) 160% );
+    width: 100%;
+    height: 68.5%;
+    margin-top: 2.5%;
+    transition: 0.2s ease-in-out; 
+}
+
+#boxStamina{
+    background: linear-gradient(110deg, #929e00 0%,#929e00 20%,#e9f542 20%, #e9f542 40%,#929e00 40%,#929e00 60%,#e9f542 60%, #e9f542 80%, #929e00 80%,#929e00 100%,#e9f542 100%, #e9f542 120%,#929e00 120%,#929e00 140%,#e9f542 140%, #e9f542 160% );
+    width: 100%;
+    height: 68.5%;
+    margin-top: 2.5%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxHunger {
+    background: linear-gradient(110deg, rgb(187, 106, 0) 0%,rgb(187, 106, 0) 20%,rgb(255, 145, 0) 20%, rgb(255, 145, 0) 40%,rgb(187, 106, 0) 40%,rgb(187, 106, 0) 60%,rgb(255, 145, 0) 60%, rgb(255, 145, 0) 80%, rgb(187, 106, 0) 80%,rgb(187, 106, 0) 100%,rgb(255, 145, 0) 100%, rgb(255, 145, 0) 120%,rgb(255, 145, 0) 120%,rgb(255, 145, 0) 140%,#e9f542 140%, #e9f542 160% );
+    width: 100%;
+    height: 68.5%;
+    margin-top: 2.5%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxArmor {
+    background: linear-gradient(110deg, rgb(40, 72, 130) 0%,rgb(40, 72, 130) 20%,rgb(0, 106, 255) 20%, rgb(0, 106, 255) 40%,rgb(40, 72, 130) 40%,rgb(40, 72, 130) 60%,rgb(0, 106, 255) 60%, rgb(0, 106, 255) 80%, rgb(40, 72, 130) 80%,rgb(40, 72, 130) 100%,rgb(0, 106, 255) 100%, rgb(0, 106, 255) 120%,rgb(40, 72, 130) 120%,rgb(40, 72, 130) 140%,rgb(0, 106, 255) 140%, rgb(0, 106, 255) 160% );
+    width: 100%;
+    height: 68.5%;;
+    margin-top: 2.5%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxThirst {
+    background: linear-gradient(110deg, rgb(0, 72, 114) 0%,rgb(0, 72, 114) 20%,rgb(0, 162, 255) 20%, rgb(0, 162, 255) 40%,rgb(0, 72, 114) 40%,rgb(0, 72, 114) 60%,rgb(0, 162, 255) 60%, rgb(0, 162, 255) 80%, rgb(0, 72, 114) 80%,rgb(0, 72, 114) 100%,rgb(0, 162, 255) 100%, rgb(0, 162, 255) 120%,rgb(0, 72, 114) 120%,rgb(0, 72, 114) 140%,rgb(0, 162, 255) 140%, rgb(0, 162, 255) 160% );
+    width: 100%;
+    height: 68.5%;
+    margin-top: 2.5%;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
