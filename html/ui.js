@@ -11,14 +11,13 @@ $(document).ready(function() {
         }
 
         if (data.armor > 0 ) {
-            $("#boxHeal").css("width", data.health + "%"); 
-            $("#boxStamina").css("width", data.stamina + "%");
             $("#boxArmor").css("width", data.armor + "%"); 
-            $('#armor').show();
             $('#heal').show(); 
-            $('#stamina').show(); 
-            $('#boxStamina').show(); 
+            $('#stamina').show();
             $('#boxHeal').show(); 
+            $('#boxStamina').show(); 
+            $('#boxArmor').show();
+            $('#armor').show(); 
             $('#boxThirst').css('width', (event.data.bebida) + "%");
             $('#boxHunger').css('width', (event.data.comida) + "%");
         }
@@ -30,12 +29,11 @@ $(document).ready(function() {
             $('#armor').hide();
             $('#heal').show(); 
             $('#stamina').show(); 
-            $('#boxStamina').show(); 
             $('#boxHeal').show(); 
+            $('#boxStamina').show();
             $('#boxThirst').css('width', (event.data.bebida) + "%");
             $('#boxHunger').css('width', (event.data.comida) + "%");
             }
-
        
     })
 })
